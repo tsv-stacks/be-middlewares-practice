@@ -1,6 +1,6 @@
 # Express Middleware
 
-This repo is a small API that contains the following routes:
+This repo contains a demo to go with the [Express Middleware Backend Lecture](https://docs.google.com/presentation/d/1M-6BfaX7UftFdfzmueiHpdmBifGQXYA0NfbKIsKhYEE/edit#slide=id.g601c870f61_0_0).It is a small API that contains the following routes:
 
 `GET /` - Should Return the string "hello World!", along with a `200` status code
 
