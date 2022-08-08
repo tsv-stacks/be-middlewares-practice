@@ -1,6 +1,6 @@
 USE `express-middleware`;
 
-INSERT INTO `jokes` (`name`, `content`) VALUES ('Road worker', 'I never wanted to believe that my Dad wasn''t stealing from his job as a road worker. But when I got home, all the signs were there.');
+INSERT INTO `jokes` (`name`, `content`) VALUES ('Road worker', 'I never wanted to believe that my Dad was stealing from his job as a road worker. But when I got home, all the signs were there.');
 INSERT INTO `jokes` (`name`, `content`) VALUES ('Frisbee', 'I was wondering why the frisbee was getting bigger, then it hit me.');
 INSERT INTO `jokes` (`name`, `content`) VALUES ('Trees', 'Why do trees seem suspicious on sunny days? Dunno, they are just a bit shady.');
 INSERT INTO `jokes` (`name`, `content`) VALUES ('Skeletons', 'Why don''t skeletons ride roller coasters? They don''t have the stomach for it.');
