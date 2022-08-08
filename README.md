@@ -58,7 +58,7 @@ docker build -f Dockerfile.m1 . -t mcr-codes/express-middleware
 To build the image, run:
 
 ```bash
-docker run -d -p 3307:3306 --name express-middleware  mcr-codes/express-middleware
+docker run -d -p 3307:3306 --name express-middleware -e MYSQL_ROOT_PASSWORD=password  mcr-codes/express-middleware
 ```
 
 ### Environment variables
