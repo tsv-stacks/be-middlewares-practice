@@ -33,6 +33,14 @@ The following functionality has not been built into the application. You will ne
 
 ## Setup
 
+## Install dependencies
+
+To install required deps, run the following:
+
+```bash
+npm i
+```
+
 ### Database
 
 To set the database up, run the following command to build the docker image defined in the repo:
