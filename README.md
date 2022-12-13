@@ -66,12 +66,12 @@ docker run -d -p 3307:3306 --name express-middleware -e MYSQL_ROOT_PASSWORD=pass
 Create a `.env` file in the root of the repo with the following values:
 
 ```properties
+PGUSER=postgres
+PGHOST=localhost
+PGPASSWORD=password
+PGDATABASE=music_library_dev
+PGPORT=5432
 PORT=3000
-DB_NAME=express-middleware
-DB_USER=user
-DB_PASSWORD=password
-DB_HOST=localhost
-DB_PORT=3307
 ```
 
 This contains credentials to allow a connection to the database.
