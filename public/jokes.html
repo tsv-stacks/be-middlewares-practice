@@ -12,13 +12,12 @@
     <h1>Joke:</h1>
     <button onclick="getData()">Retrieve Random Joke</button>
     <h2 id="joke">
-
     </h2>
 </body>
 
 <script>
     const getData = async () => {
-        let result = await fetch('http: //localhost: 3000/jokes/random')
+        let result = await fetch('http://localhost:3000/randomJoke')
             .then(response => response.json())
             .then(data => {
                 console.log(data);
