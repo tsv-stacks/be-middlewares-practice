@@ -71,7 +71,7 @@ Create a `.env` file in the root of the repo with the following values:
 PGUSER=postgres
 PGHOST=localhost
 PGPASSWORD=password
-PGDATABASE=music_library_dev
+PGDATABASE=middlewares
 PGPORT=5432
 PORT=3000
 ```
