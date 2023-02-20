@@ -11,3 +11,10 @@ exports.create = async (req, res) => {
 
   res.status(201).json(joke);
 };
+
+exports.getRandom = async (_, res) => {
+  const response = await db.query("SELECT * FROM jokes");
+  var jokes = response.rows;
+  var randomJoke = jokes[Math.floor(Math.random() * jokes.length)];
+  res.json(randomJoke);
+};

@@ -6,12 +6,14 @@ This repo contains a demo to go with the [Express Middleware Backend Lecture](ht
 
 `GET /jokes` - Should return an array of all jokes
 
+`GET /randomJoke` - Should return a random joke from the available ones
+
 `POST /jokes` - Accepts the following body:
 
 ```json
 {
-    "name": string,
-    "content": string
+    "name": String,
+    "content": String
 }
 ```
 
