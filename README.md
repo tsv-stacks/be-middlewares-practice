@@ -48,19 +48,13 @@ npm i
 To set the database up, run the following command to build the docker image defined in the repo:
 
 ```bash
-docker build . -t mcr-codes/express-middleware
-```
-
-**On an M1 Mac** - run the following:
-
-```bash
-docker build -f Dockerfile.m1 . -t mcr-codes/express-middleware
+docker build . -t commanddshift/express-middleware
 ```
 
 To build the image, run:
 
 ```bash
-docker run -d -p 3307:3306 --name express-middleware -e MYSQL_ROOT_PASSWORD=password  mcr-codes/express-middleware
+docker run -d -p 5435:5432 --name express-middleware -e POSTGRES_PASSWORD=password -d commanddshift/express-middleware
 ```
 
 ### Environment variables
@@ -72,7 +66,7 @@ PGUSER=postgres
 PGHOST=localhost
 PGPASSWORD=password
 PGDATABASE=middlewares
-PGPORT=5432
+PGPORT=5435
 PORT=3000
 ```
 
